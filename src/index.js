@@ -53,7 +53,7 @@ const textureLoader = new THREE.TextureLoader();
 const matcapTexure = textureLoader.load("textures/matcaps/2.png");
 // matcapTexure.colorSpace = THREE.SRGBColorSpace;
 
-const textInformation = "hello bitches";
+const textInformation = "hello three.js";
 
 const fontLoader = new FontLoader();
 fontLoader.load("fonts/helvetiker_regular.typeface.json", (font) => {
